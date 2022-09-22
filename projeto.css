@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color:#54BAB9;
+}
+
+header{
+	color:#FEFBF6;
+	background-color:#BBE1FA;
+	height:150px;
+	display:flex;
+	font-size:30px;
+}
+
+header h1{
+	display:flex;
+	align-items:center;
+}
+
+nav ul{
+	display:flex;
+	list-style:none;
+	width:1000px;
+	height:150px;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+#img-circular{
+		border-radius: 200px;
+}
+
+footer{
+	background-color:#000000;
+	color:#54BAB9;
+	height:500px;
+	display:flex;
+}
+
+.rodape{
+	width:300px;
+	height:500px;
+	border:0px solid #000000;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+footer{
+	background-color:#000000;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	align-items:center;
+	align-content:center;
+	column-gap:30px;
+}
+
+.f{
+	color:#FEFBF6;
+}
+
+.g{
+	color:#54BAB9;
+}
+
+.exemplo2{
+	width:100%;
+    height:120px;
+	background-color:#000000;
+	color:#FEFBF6;
+	font-size:30px;
+	text-align: center;
+}
+
+.grande{
+		
+		margin-bottom:55px;
+		
+}
+
+
+form button{
+	padding:1rem;
+	background-color:#FEFBF6;
+	font-weight:900;
+	text-align: center;
+	color:#000000;;
+	
+	
+}
+
+main{
+	text-align: center;
+	font-size:30px;
+}	
+
+nav ul li a{
+
+	text-decoration:none;
+	color:#FEFBF6;
+}
+
+nav ul li a:hover{
+	
+	color:#181818;
+}
